@@ -32,17 +32,16 @@ header h1 {
   font-weight: bold;
 }
 
-/* Nav styles */
 .navbar {
-  flex: 1;
   display: flex;
   justify-content: center;
+  flex: 1;
 }
 
 .nav-list {
-  list-style: none;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;       /* 🔹 Horizontal alignment */
+  list-style: none;
   gap: 1.5rem;
   padding: 0;
   margin: 0;
@@ -74,6 +73,7 @@ header h1 {
 .nav-list li a:hover {
   color: #00ffc3;
 }
+
 
 /* Sections */
 section {
